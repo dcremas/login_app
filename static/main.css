@@ -1,0 +1,15 @@
+a {
+  color: #d64161;
+  font-size: 1em;
+  margin-left: 50px;
+  text-decoration: none;
+}
+
+.content-section {
+  color: #0000FF;
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h3>{% block title %} Listing of all registered Accounts {% endblock %}</h3>
+
+    <div class="content-section">
+
+    {% for user in users %}
+        <p> ------ </p>
+        <p> Username: {{ user.username }} </p>
+        <p> Email: {{ user.email }} </p>
+
+    {% endfor %}
+
+    </div>
+
+{% endblock %}
